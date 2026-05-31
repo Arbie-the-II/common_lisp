@@ -13,14 +13,14 @@ This guide provides a comprehensive, step-by-step walkthrough for setting up a m
 
 ### 1. Install Steel Bank Common Lisp (SBCL)
 1. Download the latest Windows MSI installer from the official [SBCL Download Page](http://www.sbcl.org/platform.html).
-2. Run the installer and follow the prompts. By default, it installs to `C:\Program Files\SBCL\`.
+2. Run the installer and follow the prompts. By default, it installs to `C:\Program Files\Steel Bank Common Lisp\`.
 
 ### 2. Configure Windows Environment Variables
 To run SBCL from any terminal session, you must add its installation directory to your system's `PATH` environment variable:
 1. Open the Windows Start Menu, search for **"Edit the system environment variables"**, and select it.
 2. In the System Properties window, click the **Environment Variables...** button.
 3. Under **System variables**, locate the variable named `Path`, select it, and click **Edit...**.
-4. Click **New** and paste the path to your SBCL installation folder (e.g., `C:\Program Files\SBCL\`).
+4. Click **New** and paste the path to your SBCL installation folder (e.g., `C:\Program Files\Steel Bank Common Lisp\`).
 5. Click **OK** to close all windows and save the changes.
 6. Verify the installation by opening a *new* PowerShell or Command Prompt window and typing:
    ```cmd
