@@ -146,7 +146,3 @@ To connect Alive automatically to your native Windows SBCL compiler and enforce 
 }
 
 ```
-
-```
-
-```
