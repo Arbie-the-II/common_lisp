@@ -55,7 +55,7 @@ Choose **one** of the following options to download the setup script:
 * **Option A: Using `curl` (Recommended inside standard Command Prompt)**
 Modern versions of Windows Command Prompt have `curl` built-in. Run:
 ```cmd
-curl -o quicklisp.lisp [https://beta.quicklisp.org/quicklisp.lisp](https://beta.quicklisp.org/quicklisp.lisp)
+curl -o quicklisp.lisp https://beta.quicklisp.org/quicklisp.lisp
 
 ```
 
